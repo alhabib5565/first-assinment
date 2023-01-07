@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url('images/banner/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header-content {
+    width: 550px;
+    text-align: right;
+    margin-left: auto;
+    padding: 150px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    padding: 30px 0;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    text-align: right;
+    color: #151414;
+}
+
+.header-button {
+    background: #fb5200;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+}
+
+main {
+    margin: 0 130px;
+}
+
+section, footer {
+    margin-top: 100px;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+    gap: 100px
+}
+
+.failures-content {
+    width: 420px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+    padding: 30px 0;
+}
+
+.failures ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* my plans section  */
+.plan-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #151414;
+    margin: 30px 0;
+}
+
+.plan-description {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #737272;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.plan {
+    text-align: center;
+}
+
+/* mindset section  */
+
+.mindset{
+    padding: 80px;
+    background-image: url('images/gradient2.png'),url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.mindset div{
+    width:400px
+}
+.mind{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    line-height:50px
+}
+.coll-now,.sub{
+    color: #fb5200;
+    font: 22px;
+    font-weight: 600px;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    margin-top: 40px;
+}
+/* footer section */
+footer{
+    background: #151414;
+    color: #fb5200;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 200px;
+}
+.future{
+    width: 500px
+}
+.footer-title{
+    color: #f8f8f8;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.future p{
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.future img{
+    margin-right: 20px;
+}
+.subscribe p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+.subscribe input{
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+padding: 10px 15px;
+border-radius: 5px;
+background: #151414;
+border: 1px solid #F3F3F3;;
+}
